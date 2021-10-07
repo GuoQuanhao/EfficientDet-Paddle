@@ -5,7 +5,7 @@ COCO-Style Evaluations
 
 put images here /home/aistudio/your_project_name/val_set_name/*.jpg
 put annotations here /home/aistudio/your_project_name/annotations/instances_{val_set_name}.json
-put weights here /path/to/your/weights/*.pth
+put weights here /path/to/your/weights/*.pdparams
 change compound_coef
 
 """
@@ -42,7 +42,7 @@ gpu = args.device
 use_float16 = args.float16
 override_prev_results = args.override
 project_name = args.project
-weights_path = f'weights/efficientdet-d{compound_coef}.pth' if args.weights is None else args.weights
+weights_path = f'weights/efficientdet-d{compound_coef}.pdparams' if args.weights is None else args.weights
 
 print(f'running coco-style evaluation on project {project_name}, weights {weights_path}...')
 
