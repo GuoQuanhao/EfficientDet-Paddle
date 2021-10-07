@@ -65,14 +65,14 @@ python efficientdet_test.py
 <div align="center">
   <font face="楷体" size=4>原始图像&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;官方</font><font face="Times New Roman" size=4>efficientdet-d0</font><font face="楷体" size=4>预测图像</font>
     
-  <img src="https://ai-studio-static-online.cdn.bcebos.com/086552e84f5647888373676612f34b583e27a8a63386457f971e5cdb824d964b" width="450"/><img src="https://ai-studio-static-online.cdn.bcebos.com/701aca4bbfc8410b8c7d5d824ae93dbb885eaacb115347458f579f201ee18088" width="450"/>
+  <img src="https://ai-studio-static-online.cdn.bcebos.com/086552e84f5647888373676612f34b583e27a8a63386457f971e5cdb824d964b" width="400"/><img src="https://ai-studio-static-online.cdn.bcebos.com/701aca4bbfc8410b8c7d5d824ae93dbb885eaacb115347458f579f201ee18088" width="400"/>
 </div>
 
 
 <div align="center">
   <font face="楷体" size=4>本项目</font><font face="Times New Roman" size=4>efficientdet-d0</font><font face="Times New Roman" size=4>预测图像&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本项目</font><font face="Times New Roman" size=4>efficientdet-d8</font><font face="Times New Roman" size=4>预测图像</font>
     
-  <img src="https://ai-studio-static-online.cdn.bcebos.com/c063b3deaa1a42b1abee5dcb52c1ab8e1c74e557802341ce92c7f6528e098de4" width="450"/><img src="https://ai-studio-static-online.cdn.bcebos.com/c2d3a5a474cd4da9942af092c05c38f9af0a12551e8b4812981852d54154c460" width="450"/>
+  <img src="https://ai-studio-static-online.cdn.bcebos.com/c063b3deaa1a42b1abee5dcb52c1ab8e1c74e557802341ce92c7f6528e098de4" width="400"/><img src="https://ai-studio-static-online.cdn.bcebos.com/c2d3a5a474cd4da9942af092c05c38f9af0a12551e8b4812981852d54154c460" width="400"/>
 </div>
 
 ```
