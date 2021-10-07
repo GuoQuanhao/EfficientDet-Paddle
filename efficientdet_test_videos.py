@@ -12,7 +12,7 @@ from efficientdet.utils import BBoxTransform, ClipBoxes
 from utils.utils import invert_affine, postprocess, preprocess_video
 
 # Video's path
-video_src = 'videotest.mp4'  # set int to use webcam, set str to read from a video file
+video_src = 'src.mp4'  # set int to use webcam, set str to read from a video file
 
 compound_coef = 0
 force_input_size = None  # set None to use default size
@@ -63,6 +63,10 @@ clipBoxes = ClipBoxes()
 
 # Video capture
 cap = cv2.VideoCapture(video_src)
+fourcc = cv2.VideoWriter_fourcc(*'MP4V')
+fps = cap.get(cv2.CAP_PROP_FPS)
+width, height = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)), int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+outvideo = cv2.VideoWriter('result.mp4', fourcc, fps, (width, height))
 
 while True:
     ret, frame = cap.read()
@@ -91,13 +95,9 @@ while True:
 
     # show frame by frame
     cv2.imshow('frame',img_show)
+    outvideo.write(img_show)
     if cv2.waitKey(1) & 0xFF == ord('q'): 
         break
 
 cap.release()
 cv2.destroyAllWindows()
-
-
-
-
-
