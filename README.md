@@ -1,6 +1,6 @@
 ## 数据文件准备
 
-数据集已挂载至aistudio项目中，如果需要本地训练可以从这里下载[数据集](https://aistudio.baidu.com/aistudio/datasetdetail/103218)
+数据集已挂载至aistudio项目中，如果需要本地训练可以从这里下载[数据集](https://aistudio.baidu.com/aistudio/datasetdetail/103218)，项目已同步至[AIStudio](https://aistudio.baidu.com/aistudio/projectdetail/2444051)
 
 工程目录大致如下，可根据实际情况修改
 ```
